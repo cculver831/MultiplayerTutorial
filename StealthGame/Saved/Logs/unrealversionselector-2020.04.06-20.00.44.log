@@ -1,0 +1,13 @@
+Discovering modules, targets and source code for project...
+@progress 'Binding IntelliSense data...' 0%
+==============================================================================
+ERROR: Windows SDK v8.1 must be installed in order to build this target.
+
+BuildException: Windows SDK v8.1 must be installed in order to build this target.
+   at UnrealBuildTool.VCEnvironment.FindWindowsSDKInstallationFolder(CppPlatform InPlatform, WindowsCompiler InCompiler)
+   at UnrealBuildTool.VCEnvironment..ctor(CppPlatform InPlatform, WindowsCompiler InCompiler)
+   at UnrealBuildTool.VCEnvironment.SetEnvironment(CppPlatform Platform, WindowsCompiler Compiler)
+   at UnrealBuildTool.VCToolChain.CompileRCFiles(CppCompileEnvironment CompileEnvironment, List`1 RCFiles, ActionGraph ActionGraph)
+   at UnrealBuildTool.UEBuildTarget.Build(BuildConfiguration BuildConfiguration, CPPHeaders Headers, List`1 OutputItems, List`1 UObjectModules, ISourceFileWorkingSet WorkingSet, ActionGraph ActionGraph, EHotReload HotReload)
+   at UnrealBuildTool.UnrealBuildTool.RunUBT(BuildConfiguration BuildConfiguration, String[] Arguments, FileReference ProjectFile)
+==============================================================================
